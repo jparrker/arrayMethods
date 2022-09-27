@@ -11,8 +11,8 @@ const searchAndDestroy = function (arr, target) {
   return arr;
 }
 
-var numbers = [1, 3, 5, 7, 5, 3, 1];
-var without3 = searchAndDestroy(numbers, 3);
+let numbers = [1, 3, 5, 7, 5, 3, 1];
+let without3 = searchAndDestroy(numbers, 3);
 console.log(without3);
 // -> [1, 5, 7, 5, 1]
 console.log(numbers);
